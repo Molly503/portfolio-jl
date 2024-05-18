@@ -422,7 +422,7 @@ article .icon {
   cursor: default;
 }
 
-.email-icon {
+.email-icon .phone-icon {
   height: 2.5rem;
 }
 
