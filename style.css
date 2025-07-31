@@ -386,6 +386,58 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* 👇 在这里添加技术栈标签样式 👇 */
+/* TECH TAGS */
+
+.tech-tags {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+ 
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.tag:hover {
+  transform: translateY(-2px);
+}
+
+/* 不同技术的颜色 */
+.python { 
+  background: linear-gradient(135deg, #3776ab, #4584b6); 
+}
+
+.mysql { 
+  background: linear-gradient(135deg, #ff6b9a, #ff8fab); 
+}
+
+.tableau { 
+  background: linear-gradient(135deg, #e97627, #f4914a); 
+}
+
+.etl { 
+  background: linear-gradient(135deg, #28a745, #34ce57); 
+}
+
+.views { 
+  background: linear-gradient(135deg, #6f42c1, #8a63d2); 
+}
+
+.time-series { 
+  background: linear-gradient(135deg, #5bc2c2, #7fd4d4); /* 蒂芙尼蓝渐变 */
+}
 /* CONTACT */
 
 #contact {
